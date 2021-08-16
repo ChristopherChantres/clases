@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 29%, rgba(161,224,19,1) 73%, rgba(15,121,9,1) 100%);
+
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: azure;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    min-height: calc(100vh - 50px);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 29%, rgba(161,224,19,1) 73%, rgba(15,121,9,1) 100%);
+    padding-top: 20px;
+}
+
+.container--user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: min-content;
+}
+
+.container--user__person {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container--user__p {
+    margin-bottom: 10px;
+}
+
+.container--user__a {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border:  0px;
+    border-radius: 10px;
+    background-color: rgb(18, 17, 94);
+    text-decoration: none;
+    padding: 3px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container--user__a:hover {
+    background-color: rgb(24, 224, 214);
+
+}
+
+
+/* ----------------- Mobile phone --------------------- */
+
+@media only screen and (max-width: 600px) {
+    .example {
+
+    }
+}
