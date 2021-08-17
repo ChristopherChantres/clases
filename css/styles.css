@@ -8,7 +8,7 @@ nav {
     justify-content: center;
     height: 60px;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 29%, rgba(161,224,19,1) 73%, rgba(15,121,9,1) 100%);
-
+    border-bottom: 2px solid white;
 }
 
 .title {
