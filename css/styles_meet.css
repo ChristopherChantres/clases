@@ -12,6 +12,84 @@ nav {
     border-bottom: 2px solid white;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 29%, rgba(161,224,19,1) 73%, rgba(15,121,9,1) 100%);
+  padding-top: 40px;
+}
+
+.container__user {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.container__h2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.container__input {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 30px;
+  font-size: 16px;
+  font-family: 'Mulish', sans-serif;
+  margin-bottom: 20px;
+  padding: 0px 20px;
+  outline: none;
+  height: 50px;
+  width: 300px;
+
+}
+
+::placeholder {
+  color: white;
+}
+
+.container__results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button__class {
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  width: 200px;
+  background-color: #38d3e7;
+  color: white;
+  font-weight: bold;
+}
+
+.button__class:hover {
+  background-color: #0b1055;  
+}
+
+.lista {
+  color: white;
+}
+
+.noEncontrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  height: 30px;
+  padding: 5px;
+}
+
+/* --------------------- buscador ------------------------------ */
+
 .title {
     display: flex;
     align-items: center;
@@ -73,3 +151,30 @@ nav {
   .clases_botones:hover{
     background-color: #0b1055;
   }
+
+@media only screen and (max-width: 600px) {
+  .container__input {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    outline: none;
+    height: 50px;
+    width: 250px;
+  
+  }
+
+  .button__class {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 100px;
+    background-color: #38d3e7;
+    color: white;
+    font-weight: bold;
+  }
+}
