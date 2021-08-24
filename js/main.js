@@ -30,12 +30,13 @@ user.innerHTML += `Bienvenido ${hello}`;
 
 
 const clases = [
-    {nombre: `<button class="button__class" onclick="location.href='https://www.facebook.com'">Georgrafia</button>`, Horario: "HOLA"},
-    {nombre: `<button class="button__class" onclick="location.href='https://www.facebook.com'">Historia</button>`, Horario: "HOLA"},
-    {nombre: `<button class="button__class" onclick="location.href='https://www.facebook.com'">Matematicas</button>`, Horario: "HOLA"},
-    {nombre: `<button class="button__class" onclick="location.href='https://www.facebook.com'">Español</button>`, Horario: 4000},
-    {nombre: `<button class="button__class" onclick="location.href='https://www.facebook.com'">Ingles</button>`, Horario: 4000},
-    {nombre: `<button class="button__class" onclick="location.href='https://www.facebook.com'">Quimica</button>`, Horario: 4000}
+    {nombre: `<button class="button__class" onclick="location.href='https://meet.google.com/lookup/cgybp6hbfa?authuser=0&hs=179'">Critica y Propuesta</button>`, Horario: " . . . . ."},
+    {nombre: `<button class="button__class" onclick="location.href='https://meet.google.com/lookup/gisus4cl3r?authuser=0&hs=179'">Deportes</button>`, Horario: " . . . . ."},
+    {nombre: `<button class="button__class" onclick="location.href='https://meet.google.com/lookup/db3oms7bat?authuser=0&hs=179'">Biologia</button>`, Horario: " . . . . ."},
+    {nombre: `<button class="button__class" onclick="location.href='https://meet.google.com/ksj-ynev-azi'">Matematicas</button>`, Horario: " . . . . ."},
+    {nombre: `<button class="button__class" onclick="location.href='https://meet.google.com/iac-zhnx-wmz?authuser=0'">Formacion Ciudadana</button>`, Horario: " . . . . ."},
+    {nombre: `<button class="button__class" onclick="location.href='https://meet.google.com/lookup/ezqsgmnric?authuser=0&hs=179'">Lengua Extranjera</button>`, Horario: " . . . . ."},
+    {nombre: `<button class="button__class" onclick="location.href='https://meet.google.com/lookup/b2mzrn7yrq?authuser=0&hs=179'">Democracia y SN</button>`, Horario: " . . . . ."}
 ]
 
 const form = document.querySelector("#form");
@@ -51,7 +52,7 @@ const filter = ()=> {
         let name = clase.nombre.toLowerCase();
         if(name.indexOf(text) !== -1){
             results.innerHTML += `
-            <li class="lista">${clase.nombre} Horario: ${clase.Horario}</li> 
+            <li class="lista">${clase.nombre} ${clase.Horario}</li> 
             `
         }
     }
