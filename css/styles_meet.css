@@ -69,6 +69,7 @@ nav {
   background-color: #38d3e7;
   color: white;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .button__class:hover {
