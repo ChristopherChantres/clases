@@ -7,8 +7,6 @@
 
 // Guardar en una cookie el nombre para no preguntar siempre con el prompt
 
-
-
 var hello = prompt("Hola, ingresa tu nombre: ")
 if (hello == null) {
     console.log("No hay usuario")
@@ -52,7 +50,8 @@ const filter = ()=> {
         let name = clase.nombre.toLowerCase();
         if(name.indexOf(text) !== -1){
             results.innerHTML += `
-            <li class="lista">${clase.nombre} ${clase.Horario}</li> 
+            <p class="lista">${clase.nombre} ${clase.Horario}</p>
+             
             `
         }
     }
