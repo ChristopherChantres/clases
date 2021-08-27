@@ -8,19 +8,21 @@
         <title>Compañeros</title>
     </head>
     <body>
+        <!-- ------ reproducir sonido al inicio y en el error -------->
+        <!-- import {myExport} from '/modules/my-module.js'; importar desde otro archivo -->
         <script src="js/classmates.js"></script>
 
-
-        <h1>hola esta es una prueba</h1>
-
-        <!-- <audio id="musicplayer" preload="auto">
-            <source src="D:\ProgramasCreados\paginas_web\pagina_de_clases\audio\granted.mp3" type="audio/mp3" />
-        </audio> -->
-
-        <!-- <audio id="myAudio" controls autoplay preload="auto">
-            <source src="audio/granted.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio> -->             
-        
+        <section class="main">
+            <a href="index.html" class="go__back">Regresa al men&uacute; ↩</a>
+            <h2 class="h2__main">Busca a tu compañero de clase</h2>
+            <section class="container__results">
+                <input type="text" id="form" class="container__input" placeholder="Ingresa tu b&uacute;squeda">
+                <ul id="results" class="results">
+      
+                </ul>
+            </section>
+        </section>
+                   
+        <script src="js/classsmates_search_engine.js"></script>
     </body>
 </html>

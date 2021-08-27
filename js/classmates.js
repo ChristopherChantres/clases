@@ -6,7 +6,7 @@ esconde_div();
 
 function validation() {
     var password = "alumnoa24";
-    var check = prompt("Dila: ");
+    var check = prompt("Ingresa la contraseña: ");
     if (password == check) {
         run()
     } else {
@@ -35,6 +35,4 @@ function run() {
     }
     //probando la función, creando una alerta
     msj('Acceso concedido', 'La contraseña ha sido <b>correcta :)</b>', 'Cerrar');
-
-
 }

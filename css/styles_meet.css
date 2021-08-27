@@ -49,7 +49,11 @@ nav {
 
 }
 
-::placeholder {
+.container__input::placeholder {
+  color: white;
+}
+
+.container__input:focus {
   color: white;
 }
 
