@@ -82,7 +82,7 @@ const filter = ()=> {
     
     if(results.innerHTML === ""){
         results.innerHTML += `
-            <h4 class="compa__noEncontrado">Compañero no encontrado ...</h4>
+            <h4 class="classmate_notfound">Compañero no encontrado ...</h4>
             `
     }
 }

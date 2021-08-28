@@ -1,14 +1,17 @@
 // Estilizar las alertas para el acceso denegado y para el acceso concedido
-
-
+// Realizar una animacion despues de tiempo de espera de 10 segundos
+// con esto:
+        // setTimeout( function() { window.location.href = "https://professor-falken.com"; }, 5000 );
+        
 validation();
-esconde_div();
 
 function validation() {
     var password = "alumnoa24";
     var check = prompt("Ingresa la contraseña: ");
     if (password == check) {
         run()
+    } else if (check == null) {
+        window.location.href = "index.html";
     } else {
         validation();
     }

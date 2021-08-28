@@ -63,11 +63,12 @@
     color: white;
 }
 
-.compa__noEncontrado {
+.classmate_notfound {
     display: flex;
     justify-content: center;
     border-radius: 10px;
     background-color: red;
+    font-weight: bold;
     color: white;
     padding: 10px;
 }
@@ -116,7 +117,9 @@ td {
     border: none;
     height: 30px;
     color: white;
+    font-weight: bold;
     padding: 5px;
+    cursor: pointer;
 }
 
 .button__class:hover {
