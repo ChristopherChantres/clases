@@ -6,11 +6,10 @@
 
 .main {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     min-height: calc(100vh);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 29%, rgba(161,224,19,1) 73%, rgba(15,121,9,1) 100%);
-    padding-bottom: 30px;
 }
 
 .go__back {
@@ -32,15 +31,6 @@
     margin-bottom: 60px;
 }
 
-.container__results {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 80%;
-    margin-top: 20px;
-}
-
 .container__input {
     background-color: transparent;
     border: 2px solid white;
@@ -52,7 +42,6 @@
     outline: none;
     height: 50px;
     width: 300px;
-
 }
 
 .container__input::placeholder {
@@ -63,25 +52,28 @@
     color: white;
 }
 
+.container__results {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
 .classmate_notfound {
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-weight: bold;
+    border: none;
     border-radius: 10px;
     background-color: red;
-    font-weight: bold;
     color: white;
-    padding: 10px;
+    height: 30px;
 }
 
 .results {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 20px;
-}
-
-.section {
     width: 100%;
 }
 
@@ -126,7 +118,6 @@ td {
     background-color: #56f1fc;
     color: #ffffff;
 }
-
 
 
 /* ------------------- alert message ----------------- */

@@ -23,7 +23,7 @@ const filter = ()=> {
             results.innerHTML += `
             <table class="section__table">
                 <tr>
-                <td><strong>Compañero</strong></td>
+                <td><strong>Profesor</strong></td>
                 <td><strong>Correo</strong></td>
                 </tr>
         
@@ -36,7 +36,6 @@ const filter = ()=> {
                 </td>
                 </tr>
             </table>
-             
             `
         }
     }

@@ -58,24 +58,21 @@ const filter = ()=> {
         let name = clase.nombre.toLowerCase();
         if(name.indexOf(text) !== -1){
             results.innerHTML += `
-
-            <section class="section">
-                <table class="section__table">
-                    <tr>
-                    <td><strong>Compañero</strong></td>
-                    <td><strong>Correo</strong></td>
-                    </tr>
-            
-                    <tr>
-                    <td>
-                        ${clase.nombre}
-                    </td>
-                    <td>
-                        ${clase.Horario}
-                    </td>
-                    </tr>
-                </table>
-            </section>
+            <table class="section__table">
+                <tr>
+                <td><strong>Compañero</strong></td>
+                <td><strong>Correo</strong></td>
+                </tr>
+        
+                <tr>
+                <td>
+                    ${clase.nombre}
+                </td>
+                <td>
+                    ${clase.Horario}
+                </td>
+                </tr>
+            </table>
             `
         }
     }
