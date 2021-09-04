@@ -108,17 +108,75 @@ nav {
 
 }
 
+.a-container {
+    text-decoration: none;
+    height: 200px;
+    margin-left: 20px;
+}
+
 .container--math {
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
+    border: 2px solid white;
+    border-radius: 25px;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-matematicas_23-2148146270.jpg?size=626&ext=jpg");}
+
+.container--math:hover {
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+.container--math__title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 
 /* ----------------- Mobile phone --------------------- */
 
 @media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        min-height: calc(100vh + 400px);
+    }
+
+    .container--user {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .container--exam {
+        height: 70px;
+    }
+
     .container--user__a {
         height: 40px;
+    }
+
+    .a-container {
+        text-decoration: none;
+    }
+
+    .container--math {
+        min-width: calc(100vw - 100px);
+        margin-top: 20px;
+        background-image: url("https://img.freepik.com/vector-gratis/fondo-matematicas_23-2148146270.jpg?size=626&ext=jpg");
+    }
+
+    .container--math:hover {
+        background: linear-gradient(#e66465, #9198e5);
+    }
+
+    .container--math__title {
+        font-size: 30px;
     }
 }
