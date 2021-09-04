@@ -124,10 +124,11 @@ nav {
     width: 200px;
     height: 200px;
     margin-left: 20px;
-    background-image: url("https://img.freepik.com/vector-gratis/fondo-matematicas_23-2148146270.jpg?size=626&ext=jpg");}
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-matematicas_23-2148146270.jpg?size=626&ext=jpg");
+}
 
 .container--math:hover {
-    background: linear-gradient(#e66465, #9198e5);
+    background-image: url("https://www.lifeder.com/wp-content/uploads/2019/12/matematicas-concepto-lifeder-min-1024x682.jpg");
 }
 
 .container--math__title {

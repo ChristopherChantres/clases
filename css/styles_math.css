@@ -1,0 +1,120 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 29%, rgba(161,224,19,1) 73%, rgba(15,121,9,1) 100%);
+    height: calc(100vh + 320px);
+}
+
+.go__back {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.go__back:hover {
+    text-decoration: underline;
+}
+
+.container--carouselVideo {
+    background-color: aqua;
+    width: 90vw;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.container--tools {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: coral;
+    width: 90vw;
+    height: 300px;
+    margin-top: 20px;
+}
+
+/* --------------- Calculadora -------------- */
+
+.container--tools__calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 270px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.calculator-title {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+
+.container--tools__calculator input {
+    border: 2px solid rgb(166, 255, 0);
+    background-color: transparent;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    color: white;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.container--tools__calculator input::placeholder {
+    color: white;
+}
+
+.container--tools__calculator input::content {
+    color: white;
+}
+
+.container--tools__calculator button {
+    border: 0px;
+    border-radius: 10px;
+    background-color: rgb(0, 110, 255);
+    height: 30px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.container--tools__calculator button:hover {
+    background-color: rgb(0, 153, 255);
+}
+
+.container--tools__calculator output {
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(255, 0, 0);
+    margin-top: 10px;
+    padding: 3px;
+}
