@@ -108,6 +108,12 @@ nav {
 
 }
 
+.container--math {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 
 /* ----------------- Mobile phone --------------------- */
 
