@@ -182,7 +182,7 @@ body {
 }
 
 .container__tools--board {
-    width: 600px;
+    width: 370px;
     height: 270px;
     background-color: rgb(43, 43, 43);
     border: 2px solid #fff;
@@ -192,4 +192,25 @@ body {
 
 .container__tools--board:hover {
     background-color: black;
+}
+
+@media only screen and (max-width: 970px) {
+    
+    .container {
+        justify-content: flex-start;
+        height: auto
+    }
+
+    .container--tools {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .container--tools__calculator {
+        margin-bottom: 20px;
+    }
+
+    .container__tools--board {
+        margin-bottom: 20px;
+    }
 }

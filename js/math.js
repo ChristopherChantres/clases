@@ -30,8 +30,13 @@ let posicion = miCanvas.getBoundingClientRect()
 correccionX = posicion.x;
 correccionY = posicion.y;
 
-miCanvas.width = 600;
+miCanvas.width = 370;
 miCanvas.height = 270;
+// hay que checar esta parte
+// if ($(Window).width() >= 970) {
+//     miCanvas.width = 350;
+//     miCanvas.height = 270;
+// }
 
 /**
  * Funcion que empieza a dibujar la linea
@@ -115,3 +120,6 @@ miCanvas.addEventListener('touchmove', dibujarLinea, false);
 window.onbeforeunload = function() {
     return "¿Desea recargar la página web?";
   };
+
+
+
